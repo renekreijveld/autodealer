@@ -3,7 +3,9 @@
 </style>
 <div class="row-fluid">
 	<div class="span4">
-		<p><img class="img-rounded" src="{$FOTOGALLERIJ_URL_ABSOLUTE}thumbs/{$FOTOGALLERIJ_IMAGES[0].FILENAME}"/></p>
+		<p>
+  		<img class="img-rounded" src="{$FOTOGALLERIJ_URL_ABSOLUTE}thumbs/{$FOTOGALLERIJ_IMAGES[0].FILENAME}"/>
+    </p>
 	</div>
 	<div class="span8">
 		<div class="row-fluid">
@@ -28,3 +30,4 @@
 		</div>
 	</div>
 </div>
+
