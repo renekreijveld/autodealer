@@ -16,7 +16,7 @@
 						Prijs: <span class="label label-info">€ {$PRIJS}</span>
 					</div>
 				</div>
-				Km-stand: <span class="label">{$KMSTAND}</span>
+				{if $KMSTAND}Km-stand: <span class="label">{$KMSTAND}</span>{/if}
 			</div>
 		</div>
 		<div class="row-fluid readmore">
