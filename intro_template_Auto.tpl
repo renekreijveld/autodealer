@@ -3,9 +3,7 @@
 </style>
 <div class="row-fluid">
 	<div class="span4">
-		<p>
-  		<img class="img-rounded" src="{$FOTOGALLERIJ_URL_ABSOLUTE}thumbs/{$FOTOGALLERIJ_IMAGES[0].FILENAME}"/>
-    </p>
+		<p><img class="img-rounded" src="{$FOTOGALLERIJ_URL_ABSOLUTE}thumbs/{$FOTOGALLERIJ_IMAGES[0].FILENAME}"/></p>
 	</div>
 	<div class="span8">
 		<div class="row-fluid">
@@ -24,10 +22,9 @@
 		<div class="row-fluid readmore">
 			<div class="span12">
 				<p class="pull-right">
-					<a href="{$JOOMLA_ARTICLE_LINK}" class="btn btn-info btn-large" >Bekijk deze auto</a>
+					<a href="{$JOOMLA_ARTICLE_LINK}" class="btn btn-success" >Bekijk deze auto</a>
 				</p>
 			</div>
 		</div>
 	</div>
 </div>
-
